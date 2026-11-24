@@ -260,7 +260,7 @@ public class StarterBotAuto extends OpMode
                 }
                 break;
             case DRIVE:
-                if(drive(DRIVE_SPEED, -120, DistanceUnit.MM, 2)){
+                if(drive(DRIVE_SPEED, 120, DistanceUnit.MM, 2)){
                     autonomousState = AutonomousState.COMPLETE;
                 }
                 break;
