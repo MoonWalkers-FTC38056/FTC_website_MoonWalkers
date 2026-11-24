@@ -7,9 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (typeof marked !== 'undefined') {
         marked.setOptions({
             gfm: true,          // GitHub Flavored Markdown (tables, task lists)
-            breaks: true,       // Convert line breaks to <br>
-            headerIds: true,    // Automatic IDs for headings
-            mangle: false
+            breaks: true        // Convert line breaks to <br>
         });
     }
 
@@ -87,7 +85,7 @@ async function loadBlogPosts(showArchived = false) {
                     ${post.archived ? '<span class="bg-amber-500/10 text-amber-400 border border-amber-500/30 px-2 py-0.5 rounded text-[10px] uppercase font-bold">Archived</span>' : '<span class="bg-cyan-500/10 text-cyberCyan border border-cyan-500/30 px-2 py-0.5 rounded text-[10px] uppercase font-bold">Active</span>'}
                 </div>
                 <h2 class="font-heading text-2xl font-bold text-white tracking-wide">${post.title}</h2>
-                <div class="blog-content text-slate-300 text-sm leading-relaxed space-y-4 pt-2">
+                <div class="blog-content prose prose-invert max-w-none text-slate-300 text-sm leading-relaxed pt-2">
                     ${markdownHtml}
                 </div>
             `;
