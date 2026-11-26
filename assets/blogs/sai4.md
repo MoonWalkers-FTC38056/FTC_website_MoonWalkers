@@ -2,10 +2,19 @@
 Pratyush was working on the robot.
 Rick and Ricks dad were working on the hardware. 
 
+# Off-focus tasks # 
+Trent kept toying with Ron. ( Rick's dog)
+Jake kept plying with the colored balls. 
+Me and Archit went off task by watching Manis channel.
+
 # Robot #
 Pratyush was fixing the robot.
 Jake was helping him with the zip-ties. 
 Rick made it to where the robot would shoot the ball and it still didn't work.
+Jake was lifting the robot to see if it can move. 
+Trent was fixing part of the robot with zip-ties and rubber bands. 
+Pratyush decided to help Trent. 
+Pratyush and Jake were sanding down one of the robot parts.
 
 # Discussion #
 Mani and Sai(Mani) were discussing about the code.
@@ -25,3 +34,4 @@ Archit and Sai(Mani) made progress.
 
 # Solution #
 The robot finally shot the ball!
+Mani and Archit are fixing the code. 
